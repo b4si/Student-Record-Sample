@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class DetailsPage extends StatelessWidget {
-  final name;
-  final age;
-  final place;
-  final number;
+  final String name;
+  final String age;
+  final String place;
+  final String number;
   const DetailsPage({
     Key? key,
     required this.name,
